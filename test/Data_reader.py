@@ -1,3 +1,6 @@
+import keyword
+
+
 class Data_reader:
     """Класс для получения данных"""
     def read_lines_from_file(self, file_path: str) -> list[str]:
